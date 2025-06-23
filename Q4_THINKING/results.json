@@ -1,0 +1,196 @@
+{
+  "summary": {
+    "total_problems": 5,
+    "deterministic_correct": 5,
+    "majority_vote_correct": 5,
+    "deterministic_accuracy": 1.0,
+    "majority_vote_accuracy": 1.0
+  },
+  "detailed_results": [
+    {
+      "question": "A store sells apples for $2.50 per pound and oranges for $3.00 per pound. If John buys 4 pounds of apples and 3 pounds of oranges, how much does he spend in total?",
+      "correct_answer": 19.0,
+      "deterministic": {
+        "answer": 19.0,
+        "correct": true,
+        "completion": "Step 1: Calculate the cost of the apples.\nJohn buys 4 pounds of apples at $2.50 per pound.\nCost of apples = 4 pounds * $2.50/pound = $10.00\n\nStep 2: Calculate the cost of the oranges.\nJohn buys 3 pounds of oranges at $3.00 per pound.\nCost of oranges = 3 pounds * $3.00/pound = $9.00\n\nStep 3: Add the cost of the apples and oranges to find the total amount spent.\nTotal amount spent = Cost of apples + Cost of oranges\nTotal amount spent = $10.00 + $9.00 = $19.00\n\nTherefore, John spends a total of $19.00 when he buys 4 pounds of apples and 3 pounds of oranges."
+      },
+      "majority_vote": {
+        "answer": 19.0,
+        "correct": true,
+        "all_answers": [
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0
+        ],
+        "completions": [
+          "Sure, let's solve it step by step.\n\n1. Cost of 4 pounds of apples: John buys 4 pounds of apples at $2.50 per pound.\nCost of apples = 4 pounds * $2.50 = $10\n\n2. Cost of 3 pounds of oranges: John buys 3 pounds of oranges at $3.00 per pound.\nCost of oranges = 3 pounds * $3.00 = $9\n\n3. Total cost: Add the cost of apples and oranges to find the total cost.\nTotal cost = Cost of apples + Cost of oranges\nTotal cost = $10 + $9\nTotal cost = $19\n\nTherefore, John spends a total of $19 on 4 pounds of apples and 3 pounds of oranges.",
+          "Sure! Let's solve this step by step.\n\n1. Cost of 4 pounds of apples:\n4 pounds * $2.50/pound = $10.00\n\n2. Cost of 3 pounds of oranges:\n3 pounds * $3.00/pound = $9.00\n\n3. Total cost:\n$10.00 (apples) + $9.00 (oranges) = $19.00\n\nTherefore, John spends a total of $19.00.",
+          "Step 1: Calculate the total cost of apples.\n4 pounds of apples at $2.50 per pound:\nTotal cost of apples = 4 pounds * $2.50/pound = $10\n\nStep 2: Calculate the total cost of oranges.\n3 pounds of oranges at $3.00 per pound:\nTotal cost of oranges = 3 pounds * $3.00/pound = $9\n\nStep 3: Add the total cost of apples and oranges to find the total amount spent.\nTotal amount spent = Total cost of apples + Total cost of oranges\nTotal amount spent = $10 + $9\nTotal amount spent = $19\n\nTherefore, John spends a total of $19 when he buys 4 pounds of apples and 3 pounds of oranges.",
+          "Step 1: Calculate the cost of the apples.\nJohn buys 4 pounds of apples at $2.50 per pound.\nCost of apples = 4 pounds * $2.50/pound = $10\n\nStep 2: Calculate the cost of the oranges.\nJohn buys 3 pounds of oranges at $3.00 per pound.\nCost of oranges = 3 pounds * $3.00/pound = $9\n\nStep 3: Add the cost of apples and oranges to find the total amount spent.\nTotal amount spent = Cost of apples + Cost of oranges\nTotal amount spent = $10 + $9 = $19\n\nTherefore, John spends a total of $19 when buying 4 pounds of apples and 3 pounds of oranges.",
+          "Step 1: Calculate the total cost of the apples.\n\n4 pounds of apples at $2.50 per pound:\n4 pounds * $2.50 = $10.00\n\nStep 2: Calculate the total cost of the oranges.\n\n3 pounds of oranges at $3.00 per pound:\n3 pounds * $3.00 = $9.00\n\nStep 3: Add the total cost of the apples and the total cost of the oranges to find the overall total cost.\n\n$10.00 (apples) + $9.00 (oranges) = $19.00\n\nTherefore, John spends a total of $19.00 when buying 4 pounds of apples and 3 pounds of oranges.",
+          "Step 1: Calculate the cost of apples\nJohn buys 4 pounds of apples at $2.50 per pound.\nCost of apples = 4 pounds * $2.50/pound = $10\n\nStep 2: Calculate the cost of oranges\nJohn buys 3 pounds of oranges at $3.00 per pound.\nCost of oranges = 3 pounds * $3.00/pound = $9\n\nStep 3: Add the cost of apples and oranges to find the total cost\nTotal cost = Cost of apples + Cost of oranges\nTotal cost = $10 + $9\nTotal cost = $19\n\nTherefore, John spends a total of $19 on 4 pounds of apples and 3 pounds of oranges.",
+          "Step 1: Calculate the cost of the apples.\nCost of 4 pounds of apples = 4 pounds \u00d7 $2.50/pound = $10.00\n\nStep 2: Calculate the cost of the oranges.\nCost of 3 pounds of oranges = 3 pounds \u00d7 $3.00/pound = $9.00\n\nStep 3: Add the cost of the apples and oranges to find the total amount spent.\nTotal cost = $10.00 (apples) + $9.00 (oranges) = $19.00\n\nTherefore, John spends a total of $19.00 when he buys 4 pounds of apples and 3 pounds of oranges.",
+          "Step 1: Calculate the cost of the apples.\nJohn buys 4 pounds of apples at $2.50 per pound.\nCost of apples = 4 pounds * $2.50/pound = $10.00\n\nStep 2: Calculate the cost of the oranges.\nJohn buys 3 pounds of oranges at $3.00 per pound.\nCost of oranges = 3 pounds * $3.00/pound = $9.00\n\nStep 3: Find the total amount John spends.\nTotal cost = Cost of apples + Cost of oranges\nTotal cost = $10.00 + $9.00 = $19.00\n\nTherefore, John spends a total of $19.00 in the store.",
+          "Step 1: Find the total cost of apples.\nJohn buys 4 pounds of apples at $2.50 per pound.\nTotal cost of apples = 4 pounds * $2.50/pound = $10.00\n\nStep 2: Find the total cost of oranges.\nJohn buys 3 pounds of oranges at $3.00 per pound.\nTotal cost of oranges = 3 pounds * $3.00/pound = $9.00\n\nStep 3: Find the total amount spent on apples and oranges.\nTotal spent = Cost of apples + Cost of oranges\nTotal spent = $10.00 + $9.00\nTotal spent = $19.00\n\nTherefore, John spent a total of $19.00 on 4 pounds of apples and 3 pounds of oranges.",
+          "Certainly! Let's break it down step by step.\n\nStep 1: Calculate the cost of the apples.\nJohn bought 4 pounds of apples at $2.50 per pound.\nCost of apples = 4 pounds * $2.50/pound = $10.00\n\nStep 2: Calculate the cost of the oranges.\nJohn bought 3 pounds of oranges at $3.00 per pound.\nCost of oranges = 3 pounds * $3.00/pound = $9.00\n\nStep 3: Calculate the total amount spent.\nTotal spent = Cost of apples + Cost of oranges\nTotal spent = $10.00 + $9.00 = $19.00\n\nTherefore, John spends a total of $19.00 when he buys 4 pounds of apples and 3 pounds of oranges."
+        ]
+      }
+    },
+    {
+      "question": "A train travels 240 miles in 4 hours. At this rate, how many miles will it travel in 7 hours?",
+      "correct_answer": 420.0,
+      "deterministic": {
+        "answer": 420.0,
+        "correct": true,
+        "completion": "Step 1: First, we need to find the speed of the train in miles per hour. We can do this by dividing the total distance traveled by the time taken.\n\nSpeed = Distance / Time\n\nSpeed = 240 miles / 4 hours\nSpeed = 60 miles per hour\n\nStep 2: Now that we know the speed of the train is 60 miles per hour, we can calculate how many miles it will travel in 7 hours by using the formula:\n\nDistance = Speed x Time\n\nDistance = 60 miles per hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate."
+      },
+      "majority_vote": {
+        "answer": 420.0,
+        "correct": true,
+        "all_answers": [
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          420.0
+        ],
+        "completions": [
+          "First, we find the speed of the train in miles per hour by dividing the total distance travelled by the total time taken:\n\nSpeed = Distance / Time\nSpeed = 240 miles / 4 hours\nSpeed = 60 miles per hour\n\nNow that we know the speed of the train is 60 miles per hour, we can find out how many miles it will travel in 7 hours by multiplying the speed by the new time:\n\nDistance = Speed x Time\nDistance = 60 miles per hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate.",
+          "First, we need to find the speed of the train to understand how many miles it travels per hour.\n\nSpeed = Distance / Time\n\nSpeed = 240 miles / 4 hours\nSpeed = 60 miles per hour\n\nNow that we know the speed of the train is 60 miles per hour, we can calculate how many miles it will travel in 7 hours.\n\nDistance = Speed x Time\nDistance = 60 miles/hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours.",
+          "First, we need to find the speed of the train. We can do this by dividing the total distance traveled by the time taken. \n\nSpeed = Distance / Time\n\nSpeed = 240 miles / 4 hours  \nSpeed = 60 miles per hour  \n\nNow that we know the speed of the train is 60 miles per hour, we can find out how many miles it will travel in 7 hours by multiplying the speed by the new time.\n\nDistance = Speed x Time  \nDistance = 60 miles/hour x 7 hours  \nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours.",
+          "Step 1: To find the distance the train will travel in 1 hour, we divide the total distance by the total time taken: 240 miles / 4 hours = 60 miles/hour.\n\nStep 2: Multiplying the speed of the train per hour by the new time of 7 hours will give us the distance traveled: 60 miles/hour * 7 hours = 420 miles.\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate.",
+          "Step 1: First, we calculate the speed of the train in miles per hour.\nSpeed = Distance/Time\nSpeed = 240 miles / 4 hours\nSpeed = 60 miles per hour\n\nStep 2: Now, we use the calculated speed to find out how many miles the train will travel in 7 hours.\nDistance = Speed x Time\nDistance = 60 miles/hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate.",
+          "Step 1: First, we need to find the speed of the train in miles per hour.\n\nTo do this, we divide the total distance traveled by the total time taken: \n\nSpeed = Distance / Time\nSpeed = 240 miles / 4 hours\nSpeed = 60 miles per hour\n\nStep 2: Now that we know the speed of the train is 60 miles per hour, we can calculate how many miles it will travel in 7 hours.\n\nDistance = Speed x Time\nDistance = 60 miles per hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate.",
+          "Step 1: Find the rate at which the train is traveling.\n\nTo find the rate, divide the total distance traveled by the total time taken.\nRate = Distance / Time\n\nRate = 240 miles / 4 hours\nRate = 60 miles per hour\n\nStep 2: Use the rate to calculate the distance the train will travel in 7 hours.\n\nDistance = Rate x Time\nDistance = 60 miles per hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at this rate.",
+          "Step 1: Calculate the train's speed in miles per hour.\nTo find the speed, we divide the total distance traveled by the time taken.  \nSpeed = Distance / Time  \nSpeed = 240 miles / 4 hours = 60 miles per hour\n\nStep 2: Find the distance the train will travel in 7 hours.\nNow that we know the speed of the train is 60 miles per hour, we can find the distance it will travel in 7 hours using the formula:\nDistance = Speed x Time\nDistance = 60 miles/hour x 7 hours = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate.",
+          "First, we need to find the rate at which the train is traveling. \n\nTo find the rate, we need to divide the total distance by the total time taken: \n\nRate = Distance / Time\n\nRate = 240 miles / 4 hours\nRate = 60 miles per hour\n\nNow that we know the rate at which the train is traveling is 60 miles per hour, we can calculate how many miles it will travel in 7 hours:\n\nDistance = Rate x Time\nDistance = 60 miles/hour x 7 hours\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same rate.",
+          "Step 1: Find the speed of the train in miles per hour.\n\nTo find the speed of the train, we divide the total distance traveled by the time taken.\nSpeed = Distance/Time\nSpeed = 240 miles / 4 hours\nSpeed = 60 miles per hour\n\nStep 2: Use the speed to calculate the distance the train will travel in 7 hours.\n\nDistance = Speed x Time\nDistance = 60 miles per hour x 7 hour\nDistance = 420 miles\n\nTherefore, the train will travel 420 miles in 7 hours at the same speed."
+        ]
+      }
+    },
+    {
+      "question": "Sarah has 45 marbles. She gives away 1/3 of them to her brother and 1/5 of the remaining marbles to her sister. How many marbles does she have left?",
+      "correct_answer": 24.0,
+      "deterministic": {
+        "answer": 24.0,
+        "correct": true,
+        "completion": "Step 1: Find out how many marbles Sarah gives to her brother.\n1/3 of 45 marbles = (1/3) * 45 = 15 marbles\n\nStep 2: Calculate how many marbles Sarah has left after giving some to her brother.\nRemaining marbles = 45 - 15 = 30 marbles\n\nStep 3: Determine how many marbles Sarah gives to her sister.\n1/5 of the remaining 30 marbles = (1/5) * 30 = 6 marbles\n\nStep 4: Calculate how many marbles Sarah has left after giving some to her sister.\nMarbles left = 30 - 6 = 24 marbles\n\nTherefore, Sarah has 24 marbles left after giving away 1/3 of them to her brother and 1/5 of the remaining marbles to her sister."
+      },
+      "majority_vote": {
+        "answer": 24.0,
+        "correct": true,
+        "all_answers": [
+          24.0,
+          24.0,
+          24.0,
+          24.0,
+          45.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0,
+          24.0
+        ],
+        "completions": [
+          "Step 1: Find out how many marbles Sarah gives to her brother.\n\n1/3 of 45 marbles = (1/3) * 45 = 15 marbles\n\nStep 2: Calculate how many marbles Sarah has left after giving some to her brother.\n\nRemaining marbles = 45 - 15 = 30 marbles\n\nStep 3: Determine the number of marbles Sarah gives to her sister.\n\n1/5 of the remaining 30 marbles = (1/5) * 30 = 6 marbles\n\nStep 4: Calculate how many marbles Sarah has left after giving some to her sister.\n\nMarbles left = 30 - 6 = 24 marbles\n\nTherefore, Sarah has 24 marbles left after giving 1/3 to her brother and 1/5 of the remaining marbles to her sister.",
+          "Step 1: Calculate how many marbles Sarah gives to her brother.\n1/3 of 45 marbles = 45 marbles * 1/3 = 45/3 = 15 marbles\n\nSo, she gives 15 marbles to her brother.\n\nStep 2: Determine how many marbles Sarah has left after giving some to her brother.\nSarah has 45 marbles - 15 marbles = 30 marbles left.\n\nStep 3: Calculate how many marbles Sarah gives to her sister from the remaining marbles.\n1/5 of 30 marbles = 30 marbles * 1/5 = 30/5 = 6 marbles\n\nSo, she gives 6 marbles to her sister.\n\nStep 4: Find out how many marbles Sarah has left after giving some to her sister.\nSarah has 30 marbles - 6 marbles = 24 marbles left.\n\nTherefore, Sarah has 24 marbles left after giving away 1/3 to her brother and 1/5 of the remaining marbles to her sister.",
+          "Step 1: Sarah gives away 1/3 of her 45 marbles to her brother. To find out how many marbles she gives away, we need to calculate 1/3 of 45.\n1/3 * 45 = 15\n\nSarah gives away 15 marbles to her brother.\n\nStep 2: Now, let's find out how many marbles Sarah has left after giving 1/3 of them to her brother. She started with 45 marbles and gave away 15 marbles.\n45 - 15 = 30\n\nSarah has 30 marbles left.\n\nStep 3: Next, Sarah gives away 1/5 of the remaining 30 marbles to her sister. To find out how many marbles she gives away, we need to calculate 1/5 of 30.\n1/5 * 30 = 6\n\nSarah gives away 6 marbles to her sister.\n\nStep 4: Finally, let's find out how many marbles Sarah has left after giving 1/5 of the remaining marbles to her sister. She had 30 marbles remaining and gave away 6 marbles.\n30 - 6 = 24\n\nSarah has 24 marbles left after giving away 1/3 of them to her brother and 1/5 of the remaining marbles to her sister.",
+          "Step 1: Sarah gives away 1/3 of her marbles to her brother.\n1/3 of 45 marbles = (1/3) * 45 = 15 marbles.\nAfter giving 15 marbles to her brother, she is left with 45 - 15 = 30 marbles.\n\nStep 2: Sarah gives 1/5 of the remaining marbles to her sister.\n1/5 of 30 marbles = (1/5) * 30 = 6 marbles.\nAfter giving 6 marbles to her sister, she is left with 30 - 6 = 24 marbles.\n\nSo, Sarah has 24 marbles left after giving away some to her brother and sister.",
+          "Step 1: Find 1/3 of 45 marbles:\n1/3 of 45 = (1/3) * 45 = 15 marbles\n\nStep 2: Subtract the marbles she gave to her brother from her total:\n45 - 15 = 30 marbles\n\nStep 3: Find 1/5 of the remaining marbles:\n1/5 of 30 = (1/5) * 30 = 6 marbles\n\nStep 4: Subtract the marbles she gave to her sister from the remaining marbles:\n30 - 6 = 24 marbles\n\nTherefore, Sarah has 24 marbles left after giving away some of them.",
+          "Step 1: Sarah gives away 1/3 of her 45 marbles to her brother.\n\n1/3 of 45 marbles = (1/3) * 45 = 15 marbles\n\nAfter giving 15 marbles to her brother, Sarah has 45 - 15 = 30 marbles left.\n\nStep 2: Sarah gives away 1/5 of the remaining marbles to her sister.\n\n1/5 of 30 marbles = (1/5) * 30 = 6 marbles\n\nAfter giving 6 marbles to her sister, Sarah has 30 - 6 = 24 marbles left.\n\nSo, Sarah has 24 marbles left after giving away some to her brother and sister.",
+          "Step 1: Find 1/3 of 45 marbles  \n1/3 of 45 marbles = 45 * 1/3  \n1/3 of 45 marbles = 15 marbles  \n\nStep 2: Calculate the number of marbles Sarah has left after giving 1/3 to her brother.  \nRemaining marbles = Total marbles - Marbles given to brother  \nRemaining marbles = 45 - 15  \nRemaining marbles = 30 marbles  \n\nStep 3: Find 1/5 of the remaining marbles  \n1/5 of 30 marbles = 30 * 1/5  \n1/5 of 30 marbles = 6 marbles  \n\nStep 4: Calculate the number of marbles Sarah has left after giving 1/5 to her sister.  \nRemaining marbles = Remaining marbles - Marbles given to sister  \nRemaining marbles = 30 - 6  \nRemaining marbles = 24 marbles  \n\nTherefore, Sarah has 24 marbles left after giving away some to her brother and sister.",
+          "Step 1: Find out how many marbles Sarah gives away to her brother.\n\n1/3 of 45 marbles = (1/3) * 45 = 15 marbles\n\nSarah gives away 15 marbles to her brother.\n\nStep 2: Calculate how many marbles Sarah has left after giving some to her brother.\n\nRemaining marbles = 45 - 15 = 30 marbles\n\nSarah has 30 marbles left after giving some to her brother.\n\nStep 3: Determine how many marbles Sarah gives to her sister.\n\n1/5 of 30 marbles = (1/5) * 30 = 6 marbles\n\nSarah gives 6 marbles to her sister.\n\nStep 4: Calculate how many marbles Sarah has left after giving some to her sister.\n\nRemaining marbles = 30 - 6 = 24 marbles\n\nTherefore, Sarah has 24 marbles left after giving 1/3 to her brother and 1/5 of the remaining marbles to her sister.",
+          "Step 1: Sarah gives away 1/3 of her 45 marbles to her brother.\n1/3 of 45 marbles is (1/3) * 45 = 15 marbles.\n\nStep 2: After giving 15 marbles to her brother, Sarah has 45 - 15 = 30 marbles left.\n\nStep 3: Sarah gives away 1/5 of the remaining 30 marbles to her sister.\n1/5 of 30 marbles is (1/5) * 30 = 6 marbles.\n\nStep 4: After giving 6 marbles to her sister, Sarah has 30 - 6 = 24 marbles left.\n\nTherefore, Sarah has 24 marbles left after giving away 1/3 of her marbles to her brother and 1/5 of the remaining marbles to her sister.",
+          "Step 1: Sarah gives away 1/3 of her marbles to her brother.\n1/3 of 45 marbles = (1/3) * 45 = 45/3 = 15 marbles\n\nAfter giving 15 marbles to her brother, Sarah has 45 - 15 = 30 marbles left.\n\nStep 2: Sarah gives away 1/5 of the remaining marbles to her sister.\n1/5 of 30 marbles = (1/5) * 30 = 30/5 = 6 marbles\n\nAfter giving 6 marbles to her sister, Sarah has 30 - 6 = 24 marbles left.\n\nTherefore, Sarah has 24 marbles left after giving away 1/3 to her brother and then 1/5 of the remaining marbles to her sister."
+        ]
+      }
+    },
+    {
+      "question": "A rectangular garden has a length of 12 feet and a width of 8 feet. If the owner wants to put a fence around the entire perimeter, how many feet of fencing will be needed?",
+      "correct_answer": 40.0,
+      "deterministic": {
+        "answer": 40.0,
+        "correct": true,
+        "completion": "Step 1: Calculate the perimeter of the rectangular garden.\nPerimeter = 2(length) + 2(width)\n\nStep 2: Substitute the given values into the formula.\nPerimeter = 2(12 feet) + 2(8 feet)\n\nStep 3: Perform the multiplication.\nPerimeter = 24 feet + 16 feet\n\nStep 4: Add the two values together to find the total perimeter.\nPerimeter = 40 feet\n\nTherefore, the owner will need 40 feet of fencing to put around the entire perimeter of the rectangular garden."
+      },
+      "majority_vote": {
+        "answer": 40.0,
+        "correct": true,
+        "all_answers": [
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0,
+          40.0
+        ],
+        "completions": [
+          "Step 1: Calculate the perimeter of the rectangular garden using the formula P = 2l + 2w, where l is the length and w is the width.\n  \nGiven: \nLength (l) = 12 feet\nWidth (w) = 8 feet\n\nStep 2: Substitute the values into the formula.\nP = 2(12) + 2(8)\nP = 24 + 16\nP = 40 feet\n\nTherefore, the owner will need 40 feet of fencing to put around the entire perimeter of the garden.",
+          "Step 1: First, we need to find the perimeter of the rectangular garden.\nPerimeter = 2(length) + 2(width)\n\nStep 2: Substitute the given values into the formula.\nPerimeter = 2(12 feet) + 2(8 feet)\nPerimeter = 24 feet + 16 feet\n\nStep 3: Add the two sides to get the total perimeter.\nPerimeter = 40 feet\n\nTherefore, the owner will need 40 feet of fencing to put around the entire perimeter of the garden.",
+          "Sure, let's solve this step by step.\n\nStep 1: The formula to find the perimeter of a rectangle is given by P = 2*(length + width).\n\nStep 2: Given that the length of the garden is 12 feet and the width is 8 feet, we can substitute these values into the formula: P = 2*(12 + 8).\n\nStep 3: Calculate the sum inside the parentheses first: 12 + 8 = 20.\n\nStep 4: Substitute this sum into the formula: P = 2*20.\n\nStep 5: Multiply 2 by 20 to find the perimeter: P = 40 feet.\n\nTherefore, the owner will need 40 feet of fencing to put around the entire perimeter of the garden.",
+          "Sure, we can solve this step by step.\n\nStep 1: Calculate the perimeter of the rectangular garden.\nPerimeter = 2 * (Length + Width)\nPerimeter = 2 * (12 ft + 8 ft)\nPerimeter = 2 * 20 ft\nPerimeter = 40 ft\n\nStep 2: The owner will need fencing equal to the perimeter of the garden.\nTherefore, the owner will need 40 feet of fencing to put around the entire perimeter of the garden.\n\nSo, the owner will need 40 feet of fencing in total.",
+          "Sure, let's solve this step by step.\n\nStep 1: Find the formula to calculate the perimeter of a rectangle.\n\nThe formula to calculate the perimeter of a rectangle is:\nPerimeter = 2 * (length + width)\n\nStep 2: Substitute the given values of length and width into the formula.\n\nGiven:\nLength = 12 feet\nWidth = 8 feet\n\nSubstitute these values into the formula:\nPerimeter = 2 * (12 + 8)\nPerimeter = 2 * 20\nPerimeter = 40 feet\n\nStep 3: Find the final answer.\n\nTherefore, the owner will need 40 feet of fencing to go around the entire perimeter of the garden.",
+          "To find the total length of fencing needed to enclose the garden, we need to calculate the perimeter of the rectangle. The formula for the perimeter of a rectangle is given by:\n\nPerimeter = 2 * (length + width)\n\nGiven that the length of the garden is 12 feet and the width is 8 feet, we can substitute these values into the formula:\n\nPerimeter = 2 * (12 + 8)\nPerimeter = 2 * 20\nPerimeter = 40 feet\n\nTherefore, the owner will need 40 feet of fencing to enclose the entire garden.",
+          "Sure, let's solve this step by step.\n\nStep 1: Determine the formula for the perimeter of a rectangle.\nThe formula for the perimeter (P) of a rectangle is:\nP = 2(length) + 2(width)\n\nStep 2: Plug in the given values.\nGiven:\nLength = 12 feet\nWidth = 8 feet\n\nP = 2(12) + 2(8) \n\nStep 3: Calculate the perimeter.\nP = 24 + 16\nP = 40\n\nStep 4: Provide the answer.\nThe total amount of fencing needed to surround the garden is 40 feet.",
+          "Sure! To find the total amount of fencing needed for the perimeter of the garden, we first need to calculate the perimeter itself.\n\nStep 1: The formula to find the perimeter of a rectangle is given by P = 2(l + w), where l is the length and w is the width.\n\nGiven that the length (l) is 12 feet and the width (w) is 8 feet, we can substitute these values into the formula:\n\nP = 2(12 + 8)\nP = 2(20)\nP = 40\n\nStep 2: Now, we have found that the perimeter of the garden is 40 feet. To fence around the entire perimeter, we need an equal amount of fencing.\n\nTherefore, the total amount of fencing needed will be 40 feet.\n\nSo, the answer is: The owner will need 40 feet of fencing to put around the entire perimeter of the rectangular garden.",
+          "Sure, let's solve this step by step.\n\nStep 1: Calculate the perimeter of the rectangular garden.\nThe formula to calculate the perimeter of a rectangle is: \nPerimeter = 2*(length + width)\n\nGiven length = 12 feet and width = 8 feet:\nPerimeter = 2*(12 + 8)\nPerimeter = 2*(20)\nPerimeter = 40 feet\n\nStep 2: Determine the amount of fencing needed.\nTo put a fence around the entire perimeter of the garden, you will need the same length of fencing as the perimeter of the garden.\nTherefore, the owner will need 40 feet of fencing to surround the entire garden.\n\nSo, the owner will need 40 feet of fencing to surround the rectangular garden.",
+          "Sure! \nTo find the total length of the fence needed, we need to add up the measurements of all four sides of the rectangular garden. \n\nStep 1: Calculate the length of one pair of opposite sides (length of the garden).\nGiven: Length = 12 feet\n\nStep 2: Calculate the length of the other pair of opposite sides (width of the garden).\nGiven: Width = 8 feet\n\nStep 3: Calculate the total length of fencing needed.\nWe know that the total length of fencing needed is the sum of all four sides of the rectangle.\nTotal length = 2(length) + 2(width)\n\nLet's plug in the values and solve:\nTotal length = 2(12) + 2(8) \nTotal length = 24 + 16 \nTotal length = 40 feet\n\nTherefore, the owner would need 40 feet of fencing to put around the entire perimeter of the rectangular garden."
+        ]
+      }
+    },
+    {
+      "question": "In a class of 30 students, 18 students like pizza, 12 students like burgers, and 6 students like both. How many students like neither pizza nor burgers?",
+      "correct_answer": 6.0,
+      "deterministic": {
+        "answer": 6.0,
+        "correct": true,
+        "completion": "Step 1: Find the total number of students who like either pizza or burgers.\n\nTotal students who like pizza = 18\nTotal students who like burgers = 12\nTotal students who like both = 6\n\nTotal students who like either pizza or burgers = Total students who like pizza + Total students who like burgers - Total students who like both\nTotal students who like either pizza or burgers = 18 + 12 - 6\nTotal students who like either pizza or burgers = 24\n\nStep 2: Find the number of students who like neither pizza nor burgers.\n\nTotal number of students in the class = 30\nNumber of students who like either pizza or burgers = 24\n\nNumber of students who like neither pizza nor burgers = Total number of students - Number of students who like either pizza or burgers\nNumber of students who like neither pizza nor burgers = 30 - 24\nNumber of students who like neither pizza nor burgers = 6\n\nTherefore, 6 students like neither pizza nor burgers."
+      },
+      "majority_vote": {
+        "answer": 6.0,
+        "correct": true,
+        "all_answers": [
+          6.0,
+          0.0,
+          0.0,
+          6.0,
+          0.0,
+          6.0,
+          6.0,
+          6.0,
+          0.0,
+          6.0
+        ],
+        "completions": [
+          "Step 1: Let's find the total number of students who like at least one of the two foods (pizza or burgers).\nTotal students who like pizza = 18\nTotal students who like burgers = 12\nTotal students who like both = 6\n\nTotal students who like at least one food = Total students who like pizza + Total students who like burgers - Total students who like both\nTotal students who like at least one food = 18 + 12 - 6\nTotal students who like at least one food = 24\n\nStep 2: Now, let's find the number of students who like neither pizza nor burgers.\nTotal students in the class = 30\nStudents who like at least one food = 24\n\nNumber of students who like neither pizza nor burgers = Total students in the class - Students who like at least one food\nNumber of students who like neither pizza nor burgers = 30 - 24\nNumber of students who like neither pizza nor burgers = 6\n\nTherefore, 6 students like neither pizza nor burgers.",
+          "Step 1: Find the total number of students who like either pizza or burgers.\n\nTotal students who like either pizza or burgers = students who like pizza + students who like burgers - students who like both\n\nTotal students who like either pizza or burgers = 18 + 12 - 6 = 30\n\nStep 2: Find the number of students who like neither pizza nor burgers.\n\nTotal students who like neither pizza nor burgers = Total students in the class - Total students who like either pizza or burgers\n\nTotal students who like neither pizza nor burgers = 30 - 30 = 0\n\nTherefore, none of the 30 students like neither pizza nor burgers.",
+          "Step 1: Identify the total number of students (30) and the number of students who like pizza (18), like burgers (12), and like both (6).\n\nStep 2: Use the principle of inclusion-exclusion to find the total number of students who like either pizza or burgers.\n\nTotal students who like either pizza or burgers = Students who like pizza + Students who like burgers - Students who like both\n\nTotal students who like either pizza or burgers = 18 + 12 - 6 = 30\n\nStep 3: Subtract the total number of students who like either pizza or burgers from the total number of students to find the number of students who like neither pizza nor burgers.\n\nNumber of students who like neither pizza nor burgers = Total number of students - Total students who like either pizza or burgers\nNumber of students who like neither pizza nor burgers = 30 - 30 = 0\n\nTherefore, there are 0 students who like neither pizza nor burgers in the class of 30 students.",
+          "Step 1: Start by finding the total number of students who like pizza or burgers.\n\nTotal students who like pizza or burgers = Students who like pizza + Students who like burgers - Students who like both\nTotal students who like pizza or burgers = 18 + 12 - 6\nTotal students who like pizza or burgers = 24\n\nStep 2: Find the number of students who like neither pizza nor burgers.\nNumber of students who like neither pizza nor burgers = Total students in the class - Total students who like pizza or burgers\nNumber of students who like neither pizza nor burgers = 30 - 24\nNumber of students who like neither pizza nor burgers = 6\n\nTherefore, there are 6 students who like neither pizza nor burgers in the class.",
+          "Step 1: Find the total number of students who like pizza or burgers.\n\nTotal students who like pizza or burgers = Students who like pizza + Students who like burgers - Students who like both  \nTotal students who like pizza or burgers = 18 + 12 - 6  \nTotal students who like pizza or burgers = 30  \n\nStep 2: Find the number of students who like neither pizza nor burgers.\n\nNumber of students who like neither pizza nor burgers = Total number of students - Total students who like pizza or burgers  \nNumber of students who like neither pizza nor burgers = 30 - 30  \nNumber of students who like neither pizza nor burgers = 0  \n\nTherefore, there are 0 students who like neither pizza nor burgers in the class of 30 students.",
+          "Step 1: Let's find the total number of students who like pizza or burgers.\nTotal students who like pizza = 18\nTotal students who like burgers = 12\n\nStep 2: Since 6 students like both pizza and burgers, we need to subtract them once from the total count.\nTotal students who like pizza or burgers = 18 + 12 - 6 = 24\n\nStep 3: Now, let's find the number of students who like neither pizza nor burgers by subtracting the total students who like pizza or burgers from the total number of students in the class.\nTotal students in the class = 30\nStudents who like pizza or burgers = 24\n\nStep 4: Calculate the number of students who like neither pizza nor burgers.\nStudents who like neither = Total students in the class - Students who like pizza or burgers\nStudents who like neither = 30 - 24 = 6\n\nTherefore, 6 students like neither pizza nor burgers in the class.",
+          "Step 1: Find the total number of students who like pizza or burgers.\n\nTotal students who like pizza or burgers = students who like pizza + students who like burgers - students who like both\nTotal students who like pizza or burgers = 18 + 12 - 6\nTotal students who like pizza or burgers = 24 students\n\nStep 2: Find the number of students who like neither pizza nor burgers.\n\nNumber of students who like neither = Total number of students - Total students who like pizza or burgers\nNumber of students who like neither = 30 - 24\nNumber of students who like neither = 6 students\n\nTherefore, 6 students like neither pizza nor burgers.",
+          "Step 1: Find the number of students who like either pizza or burgers.\n\nNumber of students who like either pizza or burgers = Number of students who like pizza + Number of students who like burgers - Number of students who like both\n= 18 + 12 - 6\n= 30 - 6\n= 24\n\nStep 2: Find the number of students who like neither pizza nor burgers.\n\nNumber of students who like neither pizza nor burgers = Total number of students - Number of students who like either pizza or burgers\n= 30 - 24\n= 6\n\nTherefore, 6 students like neither pizza nor burgers.",
+          "Step 1: Calculate the total number of students who like at least one of the two foods.\nTotal students who like either pizza or burgers = Students who like pizza + Students who like burgers - Students who like both\nTotal students who like either pizza or burgers = 18 + 12 - 6\nTotal students who like either pizza or burgers = 30\n\nStep 2: Calculate the number of students who like neither pizza nor burgers.\nTotal students in the class = 30\nNumber of students who like either pizza or burgers = 30\nNumber of students who like neither pizza nor burgers = Total students - Students who like either pizza or burgers\nNumber of students who like neither pizza nor burgers = 30 - 30\nNumber of students who like neither pizza nor burgers = 0\n\nTherefore, there are 0 students who like neither pizza nor burgers in the class.",
+          "Step 1: Determine the total number of students who like either pizza or burgers.\n\nTotal students who like pizza = 18\nTotal students who like burgers = 12\n\nSince 6 students like both pizza and burgers, we need to subtract this from the total to avoid double counting:\nTotal students who like either pizza or burgers = 18 + 12 - 6 = 24\n\nStep 2: Calculate the number of students who like neither pizza nor burgers.\n\nTotal students in the class = 30\nTotal students who like either pizza or burgers = 24\n\nStudents who like neither pizza nor burgers = Total students in the class - Total students who like either pizza or burgers\nStudents who like neither pizza nor burgers = 30 - 24 = 6\n\nTherefore, 6 students like neither pizza nor burgers."
+        ]
+      }
+    }
+  ]
+}

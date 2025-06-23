@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "total_problems": 2,
+    "deterministic_correct": 2,
+    "majority_vote_correct": 2,
+    "deterministic_accuracy": 1.0,
+    "majority_vote_accuracy": 1.0
+  },
+  "detailed_results": [
+    {
+      "question": "A store sells apples for $2.50 per pound and oranges for $3.00 per pound. If John buys 4 pounds of apples and 3 pounds of oranges, how much does he spend in total?",
+      "correct_answer": 19.0,
+      "deterministic": {
+        "answer": 19.0,
+        "correct": true,
+        "completion": "Let's think step-by-step. John buys 4 pounds of apples at $2.50 per pound = 4 \u00d7 $2.50 = $10. He buys 3 pounds of oranges at $3.00 per pound = 3 \u00d7 $3.00 = $9. Total cost = $10 + $9 = $19."
+      },
+      "majority_vote": {
+        "answer": 19.0,
+        "correct": true,
+        "all_answers": [
+          19.0,
+          10.0,
+          10.0,
+          18.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0
+        ],
+        "answer_distribution": {
+          "19.0": 7,
+          "10.0": 2,
+          "18.0": 1
+        }
+      }
+    },
+    {
+      "question": "A train travels 240 miles in 4 hours. At this rate, how many miles will it travel in 7 hours?",
+      "correct_answer": 420.0,
+      "deterministic": {
+        "answer": 420.0,
+        "correct": true,
+        "completion": "Let's think step-by-step. The train travels 240 miles in 4 hours, so its speed is 240 \u00f7 4 = 60 mph. In 7 hours, it will travel 60 \u00d7 7 = 420 miles."
+      },
+      "majority_vote": {
+        "answer": 420.0,
+        "correct": true,
+        "all_answers": [
+          420.0,
+          420.0,
+          420.0,
+          420.0,
+          410.0,
+          7.0,
+          420.0,
+          7.0,
+          420.0,
+          420.0
+        ],
+        "answer_distribution": {
+          "420.0": 7,
+          "410.0": 1,
+          "7.0": 2
+        }
+      }
+    }
+  ]
+}
